@@ -2,10 +2,10 @@ const rooms = [];
 
 const room1 = {
   id: 1,
-  hasFacilitator: true,
+  hasFacilitator: false,
   hasHtmlDev: false,
   hasCssDev: false,
-  hasJsDev: true,
+  hasJsDev: false,
   hasFemale: false,
   names: [],
   roomName: "Gold",
@@ -14,9 +14,9 @@ const room1 = {
 const room2 = {
   id: 2,
   hasFacilitator: false,
-  hasHtmlDev: true,
+  hasHtmlDev: false,
   hasCssDev: false,
-  hasJsDev: true,
+  hasJsDev: false,
   hasFemale: false,
   names: [],
   roomName: "Silver",
@@ -24,11 +24,11 @@ const room2 = {
 
 const room3 = {
   id: 3,
-  hasFacilitator: true,
+  hasFacilitator: false,
   hasHtmlDev: false,
-  hasCssDev: true,
+  hasCssDev: false,
   hasJsDev: false,
-  hasFemale: true,
+  hasFemale: false,
   names: [],
   roomName: "Pearl",
   //slotRemaining: 2,
